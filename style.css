@@ -54,6 +54,21 @@ Banner Section
 .banner-height{
   min-height: calc(100vh - 56px);
 }
+.carousel-img-div{
+  height: calc(100vh - 56px);
+}
+.carousel-img-1{
+  object-fit: cover;
+  object-position: 25% 40%;
+}
+.carousel-img-2{
+  object-fit: cover;
+  object-position: 35% 40%;
+}
+.carousel-img-3{
+  object-fit: cover;
+  object-position: 50% 40%;
+}
 /*  
 ======================
 End of Banner Section
