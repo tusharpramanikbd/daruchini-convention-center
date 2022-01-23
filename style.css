@@ -6,6 +6,8 @@ Variables
 :root {
 	--clr-white: #fff;
 	--clr-primary: rgb(248, 104, 88);
+	--clr-secondary: #848199;
+	--clr-btn-bg: #f8e1ee;
 	--ff-primary: 'Poppins', sans-serif;
 	--ff-secondary: 'Roboto', sans-serif;
 	--spacing: 0.25rem;
@@ -23,7 +25,12 @@ Global Styles
 body {
 	font-family: var(--ff-primary);
 }
-
+.custom-text-color-ash{
+  color: var(--clr-secondary);
+}
+.custom-package-btn-bg{
+  background: var(--clr-btn-bg);
+}
 /*  
 ===============
 Navbar
