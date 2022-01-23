@@ -69,6 +69,10 @@ Banner Section
   object-fit: cover;
   object-position: 50% 40%;
 }
+.custom-icon-size{
+  width: 3rem;
+  height: 3rem;
+}
 /*  
 ======================
 End of Banner Section
