@@ -85,3 +85,28 @@ Banner Section
 End of Banner Section
 ======================
 */
+
+/*  
+=============
+Our Package
+=============
+*/
+.card-3{
+  position: relative;
+  bottom: 5%;
+  z-index: 2;
+  border-radius: 20px;
+}
+.custom-badge{
+  right: 5%;
+}
+@media screen and (min-width: 992px) {
+  .package-heading{
+    margin-bottom: 5rem;
+  }
+}
+/*  
+===================
+End of Our Package
+===================
+*/
