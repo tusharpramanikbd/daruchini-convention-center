@@ -1,0 +1,51 @@
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+	--clr-white: #fff;
+	--clr-primary: rgb(248, 104, 88);
+	--ff-primary: 'Poppins', sans-serif;
+	--ff-secondary: 'Roboto', sans-serif;
+	--spacing: 0.25rem;
+	--radius: 0.25rem;
+	--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	--clr-background: #E5E5E5;
+}
+
+/*
+=============== 
+Global Styles
+===============
+*/
+body {
+	font-family: var(--ff-primary);
+}
+
+/*  
+===============
+Navbar
+===============
+*/
+
+/*  
+===============
+End of Navbar
+===============
+*/
+
+/*  
+===============
+Banner Section
+===============
+*/
+.banner-height{
+  min-height: calc(100vh - 56px);
+}
+/*  
+======================
+End of Banner Section
+======================
+*/
