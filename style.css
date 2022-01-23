@@ -29,7 +29,17 @@ body {
 Navbar
 ===============
 */
-
+.navbar-light .navbar-toggler-icon {
+  background-image: url("./icons/menu-2\ 1.svg");
+}
+.navbar-brand-width{
+  width: 65%;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand-width{
+    width: auto;
+  }
+}
 /*  
 ===============
 End of Navbar
